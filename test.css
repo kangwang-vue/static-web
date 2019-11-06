@@ -14,7 +14,7 @@ body {
 }
 
 .helmet {
-    background-image: url(1.png);
+    background-image: url(header.png);
 }
 
 .header {
@@ -171,7 +171,7 @@ body {
 }
 
 .middle .box .firstly {
-    background-image: url(e.png);
+    background-image: url(black.png);
     width: 49%;
     height: 480px;
     display: inline-block;
@@ -203,7 +203,7 @@ body {
 }
 
 .middle .boox .firstly {
-    background-image: url(f.png);
+    background-image: url(shadow.png);
     width: 49%;
     height: 480px;
     display: inline-block;
