@@ -1,0 +1,402 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 60%;
+}
+
+.helmet {
+    background-image: url(1.png);
+}
+
+.header {
+    display: inline-block;
+    height: 100px;
+    
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .content {
+    align-items: center;
+    display: flex;
+}
+
+.header .left {
+    width: 40%;
+    align-items: center;
+    display: inline-block;
+    display: flex;
+}
+
+.png {
+    display: flex;
+    align-items: center;
+}
+
+.header .left div {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.header .right {
+    flex: 1;
+    align-items: center;
+    display: inline-block;
+}
+
+.header .right div {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.header1 {
+    display: inline-block;
+    height: 700px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1 .text .a {
+    font-size: 36px;
+    font-family: HelveticaNeue;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header1 .text .b {
+    font-size: 48px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header1 .text .c {
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header1 .text .d {
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.middle {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle .brief .e {
+    font-size: 48px;
+    font-family: HelveticaNeue-Medium, HelveticaNeue;
+    color: rgba(51, 51, 51, 1);
+    margin-left: 480px;
+    padding-bottom: 50px;
+}
+
+.middle .brief .f {
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: rgba(179, 179, 179, 1);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.middle .target .g {
+    font-size: 48px;
+    font-family: HelveticaNeue-Medium, HelveticaNeue;
+    color: rgba(51, 51, 51, 1);
+    margin-left: 480px;
+    padding-bottom: 50px;
+}
+
+.middle .target .h {
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: rgba(179, 179, 179, 1);
+    text-align: center;
+}
+
+.middle .plan {
+    width: 100%;
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    color: rgba(179, 179, 179, 1);
+    padding-bottom: 100px;
+}
+
+.middle .plan .png {
+    width: 49.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+.middle .plan .png img {
+    margin: 50px;
+    display: inline-block;
+    flex-direction: row-reverse;
+}
+
+.middle .plan .text {
+    font-size: 30px;
+    font-family: HelveticaNeue;
+    color: rgba(60, 72, 88, 1);
+    margin: 50px;
+    flex-direction: row-reverse;
+}
+
+.middle .box {
+    display: flex;
+    font-family: HelveticaNeue-Light, HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+}
+
+.middle .box .firstly {
+    background-image: url(e.png);
+    width: 49%;
+    height: 480px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.middle .box .firstly .test {
+    flex: 1;
+    font-size: 40px;
+    font-family: HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.middle .box .firstly div {
+    font-size: 20px;
+    font-family: HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    margin-left: 25px;
+}
+
+
+.middle .boox {
+    display: flex;
+    font-family: HelveticaNeue-Light, HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 100px;
+}
+
+.middle .boox .firstly {
+    background-image: url(f.png);
+    width: 49%;
+    height: 480px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.middle .boox .firstly .test {
+    flex: 1;
+    font-size: 40px;
+    font-family: HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.middle .boox .firstly div {
+    font-size: 20px;
+    font-family: HelveticaNeue;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 50px;
+    margin-left: 25px;
+}
+
+.middle .centre .header-title {
+    font-size: 36px;
+    font-family: HelveticaNeue-Medium, HelveticaNeue;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.middle .centre {
+    padding-bottom: 100px;
+}
+
+.centre .centre-title {
+    font-size: 30px;
+    font-family: HelveticaNeue;
+    color: rgba(3, 169, 244, 1);
+    padding-bottom: 15px;
+}
+
+.centre .centre-line {
+    border: 1px solid rgba(179, 179, 179, 1);
+}
+
+.centre img {
+    position: relative;
+    width: 22px;
+    height: auto;
+    float: right;
+    top: -25px;
+}
+
+.centre .centre-content {
+    font-size: 30px;
+    font-family: HelveticaNeue;
+    color: rgba(179, 179, 179, 1);
+    padding: 5px 0;
+    padding-bottom: 15px;
+}
+
+.centre .centre-child {
+    font-size: 30px;
+    font-family: HelveticaNeue;
+    color: rgba(60, 72, 88, 1);
+    padding-bottom: 10px;
+}
+
+.centre .centre-line {
+    border: 1px solid rgba(179, 179, 179, 1);
+}
+
+
+.middle .medi .medi-title {
+    font-size: 48px;
+    font-family: HelveticaNeue-Medium, HelveticaNeue;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 58px;
+    text-align: center;
+}
+
+.medi .tube {
+    padding: 100px;
+    text-align: center;
+}
+
+.medi img {
+    width: 100px;
+    height: auto;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 20px 0px rgba(102, 102, 102, 0.5), -5px -5px 20px 0px rgba(102, 102, 102, 0.5);
+    border-radius: 100px;
+}
+
+.middle .medi .medi-content {
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    color: rgba(102, 102, 102, 1);
+    line-height: 29px;
+    padding-bottom: 100px;
+}
+
+.medi .founder {
+    font-size: 36px;
+    font-family: HelveticaNeue;
+    color: rgba(51, 51, 51, 1);
+    line-height: 43px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.medi .name {
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    color: rgba(102, 102, 102, 1);
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.medi .advantage {
+    font-size: 48px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 67px;
+    text-align: center;
+}
+
+.medi .test {
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 42px;
+    padding-bottom: 100px;
+}
+
+.medi .test div {
+    margin-top: 50px;
+}
+
+.bottom {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom .content .header-test {
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgb(236, 228, 228);
+    line-height: 42px;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+.bottom .header-test div {
+    margin-top: 50px;
+}
+
+.setting {
+    background-image: url(bottom.png);
+    height: 700px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom .last {
+    display: flex;
+}
+
+.png {
+    flex: 1;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.bottom .last .png div {
+    font-size: 30px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 42px;
+    text-align: center;
+    padding-top: 20px;
+}
