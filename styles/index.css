@@ -57,7 +57,7 @@ body {
 
 .header .right div {
     display: inline-block;
-    padding-right: 25px;
+    padding-right: 15px;
 }
 
 .header1 {
@@ -109,8 +109,8 @@ body {
     font-size: 48px;
     font-family: HelveticaNeue-Medium, HelveticaNeue;
     color: rgba(51, 51, 51, 1);
-    margin-left: 480px;
-    padding-bottom: 50px;
+    padding: 50px;
+    text-align: center;
 }
 
 .middle .brief .f {
@@ -118,15 +118,15 @@ body {
     font-family: PingFangSC-Regular, PingFang SC;
     color: rgba(179, 179, 179, 1);
     text-align: center;
-    padding-bottom: 100px;
+    padding: 50px;
 }
 
 .middle .target .g {
     font-size: 48px;
     font-family: HelveticaNeue-Medium, HelveticaNeue;
     color: rgba(51, 51, 51, 1);
-    margin-left: 480px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .middle .target .h {
@@ -137,11 +137,13 @@ body {
 }
 
 .middle .plan {
+    display: flex;
     width: 100%;
     font-size: 24px;
     font-family: HelveticaNeue;
     color: rgba(179, 179, 179, 1);
-    padding-bottom: 100px;
+    margin-top: 50px;
+
 }
 
 .middle .plan .png {
@@ -157,6 +159,37 @@ body {
 }
 
 .middle .plan .text {
+    flex: 1;
+    font-size: 30px;
+    font-family: HelveticaNeue;
+    color: rgba(60, 72, 88, 1);
+    margin: 50px;
+    flex-direction: row-reverse;
+}
+.middle .plan1 {
+    display: flex;
+    width: 100%;
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    color: rgba(179, 179, 179, 1);
+
+}
+
+.middle .plan1 .png {
+    width: 49.5%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.middle .plan1 .png img {
+    margin: 50px;
+    display: inline-block;
+    flex-direction: row-reverse;
+}
+
+.middle .plan1 .text {
+    flex: 1;
     font-size: 30px;
     font-family: HelveticaNeue;
     color: rgba(60, 72, 88, 1);
